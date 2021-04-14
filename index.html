@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мое портфолио</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/7a2f4ff0a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div  class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header_body">
+          <div class="header_burger">
+            <span></span>
+          </div>
+          <nav class="header_menu nav">
+            <ul class="menu">
+              <li class="menu_list">
+                <a href="#top" class="menu_link ru_content">Наверх</a>
+                <a href="#top" class="menu_link en_content hide">Home</a>
+              </li>
+              <li class="menu_list">
+                <a href="#about" class="menu_link ru_content">Обо мне</a>
+                <a href="#about" class="menu_link en_content hide">About me</a>
+              </li>
+              <li class="menu_list">
+                <a href="#skills" class="menu_link ru_content">Навыки</a>
+                <a href="#skills" class="menu_link en_content hide">Skills</a>
+              </li>
+              <li class="menu_list">
+                <a href="#portfolio" class="menu_link ru_content">Портфолио</a>
+                <a href="#portfolio" class="menu_link en_content hide">Portfolio</a>
+              </li>
+              <li class="menu_list">
+                <a href="#contacts" class="menu_link ru_content">Контакты</a>
+                <a href="#contacts" class="menu_link en_content hide">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section id="top" class="section-top">
+      <div class="section-top_about">
+        <h1 class="ru_content">Андрей Шамарин</h1>
+        <h1 class="en_content hide">Andrey Shamarin</h1>
+        <p class="ru_content">
+          Веб-разработчик <br>
+          26 лет, Москва
+        </p>
+        <p class="en_content hide">
+          Web-developer <br>
+          26 years old, Moscow
+        </p>
+        <div class="lang desk_div">
+          <input type="radio" id="ru" class="ru_btn" checked name="change_lang">
+          <label for="ru" class="ru_btn">RU</label>
+          <span>|</span>
+          <input type="radio" id="en" class="en_btn" name="change_lang">
+          <label for="en" class="en_btn">ENG</label>
+        </div>
+      </div>
+      <div class="section-top_img">
+        <img src="img/orig.jpg" alt="avatar">
+      </div>
+    </section>
+  </div>
+  <div class="wrapper-gray">
+    <section id="about" class="about-me">
+      <h2 class="ru_content">Обо мне</h2>
+      <h2 class="en_content hide">About me</h2>
+      <p class="ru_content">
+        Привет! Меня зовут Андрей&nbsp;&mdash; я&nbsp;веб-разработчик из&nbsp;Москвы.
+        Увлекаюсь написанием кода, по&nbsp;большей части backend и&nbsp;всем, что связано с&nbsp;этим.
+      </p>
+      <p class="en_content hide">
+        Hi, I&rsquo;m Andrey&nbsp;&mdash; Web-developer from Moscow.
+        I&rsquo;m interested in&nbsp;code, mostly backend and everything connected with&nbsp;it.
+      </p>
+      <p class="ru_content">
+        В&nbsp;данный момент я&nbsp;обучаюсь на&nbsp;факультете веб-разработки в&nbsp;GeekBrains
+      </p>
+      <p class="en_content hide">
+        I&rsquo;m studying at&nbsp;courses &laquo;Web-development&raquo; in&nbsp;GeekBrains.
+      </p>
+      <p class="ru_content">
+        Готов поучавствовать в&nbsp;создании интересных проектов с&nbsp;итересными людьми :)
+      </p>
+      <p class="en_content hide">
+        Ready to&nbsp;implement excellent projects <br>
+        with wonderful people :)
+      </p>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section id="skills" class="skills">
+      <h2 class="ru_content">Навыки</h2>
+      <h2 class="en_content hide">Skills</h2>
+      <p class="ru_content">
+        В работе я использую следующие технологии
+      </p>
+      <p class="en_content hide">
+        In my work I use the following technologies
+      </p>
+      <!-- Основной блок слайдера -->
+      <div class="slider">
+        <div class="slider_scroller">
+          <!-- Первый слайд -->
+          <div class="item slide_1">
+            <div class="card card_1">
+              <div class="card_img">
+                <img src="img/logos/html5.svg" alt="html">
+                <img src="img/logos/css-5.svg" alt="css">
+                <img src="img/logos/bootstrap-4.svg" alt="bootstrap">
+                <img src="img/logos/sass-1.svg" alt="sass">
+              </div>
+              <span>
+                HTML5 / CSS3 <br>
+                Bootstrap / SCSS
+              </span>
+              <p class="ru_content">
+                Верстаю сайты с&nbsp;помощью HTML&nbsp;/ CSS, использую Bootstrap и&nbsp;препроцессор SCSS&nbsp;/ SASS
+              </p>
+              <p class="en_content hide">
+                Layout sites with HTML&nbsp;/ CSS, using Bootstrap and SCSS&nbsp;/ SASS preprocessor
+              </p>
+            </div>
+            <div class="card card_2">
+              <div class="card_img">
+                <img src="img/logos/logo-javascript.svg" alt="js">
+                <img src="img/logos/vue-9.svg" alt="vue">
+                <img src="img/logos/nodejs-2.svg" alt="node" class="img_col_1_3">
+              </div>
+              <span>
+                JavaScript<br>
+                Vue.js / Node.js
+              </span>
+              <p class="ru_content">
+                Владею нативным JavaScript, библиотекой Node.js, знаком с&nbsp;фреймворком Vue.js
+              </p>
+              <p class="en_content hide">
+                Use vanilla JavaScript, Node.js library and Vue.js framework
+              </p>
+            </div>
+            <div class="card card_3">
+              <div class="card_img">
+                <img src="img/logos/react-2.svg" alt="react" class="img_row_1_3" >
+                <img src="img/logos/nextjs-3.svg" alt="next" class="img_row_1_3">
+              </div>
+              <span>
+                React.js
+              </span>
+              <p class="ru_content">
+                По&nbsp;программе обучения, в&nbsp;скором времени изучим библиотеку React.js
+              </p>
+              <p class="en_content hide">
+                According to&nbsp;the training program, we&nbsp;will soon learn the React.js library
+              </p>
+            </div>
+          </div>
+          <!-- Второй слайд -->
+          <div class="item slide_2">
+            <div class="card card_4">
+              <div class="card_img">
+                <img src="img/logos/php.svg" alt="php">
+                <img src="img/logos/laravel-2.svg" alt="laravel">
+                <img src="img/logos/mysql-5.svg" alt="mysql" class="img_col_1_3">
+              </div>
+              <span>
+                PHP / Laravel<br>
+                MySQL
+              </span>
+              <p class="ru_content">
+                Владею PHP и MySQL, знаком с&nbsp;паттернами проектирования в&nbsp;ООП, а&nbsp;также использую фреймворк Laravel
+              </p>
+              <p class="en_content hide">
+                I&nbsp;use PHP and MySQL, I&nbsp;am familiar with design patterns in&nbsp;OOP, and&nbsp;I also use the Laravel framework
+              </p>
+            </div>
+            <div class="card card_5">
+              <div class="card_img">
+                <img src="img/logos/linux-tux.svg" alt="linux">
+                <img src="img/logos/git-icon.svg" alt="git">
+                <img src="img/logos/docker-3.svg" alt="docker" class="img_col_1_3">
+              </div>
+              <span>
+                Linux<br>
+                Git / Docker
+              </span>
+              <p class="ru_content">
+                Умею работать с&nbsp;ОС&nbsp;Linux, системой контроля версий Git и&nbsp;использую Docker
+              </p>
+              <p class="en_content hide">
+                I&nbsp;can work with Linux OS, Git version control system and use Docker
+              </p>
+<!--              TODO realy?)-->
+              <p class="ps ru_content">
+                Этот сайт собран и&nbsp;размещен с&nbsp;помощью Docker
+              </p>
+              <p class="ps en_content hide">
+                This site is&nbsp;built and hosted with Docker
+              </p>
+            </div>
+          </div>
+          <!-- Остальные новые слайды  -->
+        </div>
+        <!-- Кнопки-стрелочки -->
+        <a class="btn previous"><i class="fas fa-angle-left"></i></a>
+        <a class="btn next"><i class="fas fa-angle-right"></i></a>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper-gray">
+<!--    TODO актуализировать + англ версия и сделать все ссылки-->
+    <section id="portfolio" class="portfolio">
+      <h2 class="ru_content">Портфолио</h2>
+      <h2 class="en_content hide">Portfolio</h2>
+      <div class="portfolio_item">
+        <h3 class="ru_content">Новостной агрегатор</h3>
+        <h3 class="en_content hide">News aggregator</h3>
+        <p class="portfolio_p ru_content">Собирает новости по&nbsp;категориям с&nbsp;помощью xml-парсинга с&nbsp;сайта Яндекс.Новости. Создан на&nbsp;Laravel + Bootstrap</p>
+        <p class="portfolio_p en_content hide">Collects news by&nbsp;category using xml-parsing from the Yandex.News. Built with Laravel + Bootstrap</p>
+          <div class="portfolio_img">
+            <img src="img/projects/laravel/news.png" alt="news">
+          </div>
+          <div class="portfolio_img">
+            <img src="img/projects/laravel/admin.png" alt="admin">
+          </div>
+        <div class="portfolio_links">
+          <a href="#" class="portfolio_btn portfolio_link">Открыть работу</a>
+          <a href="https://github.com/andreisham/laravelLessons" class="portfolio_btn portfolio_link-git" target="_blank">GitHub <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item">
+        <h3>Project name</h3>
+        <p>description</p>
+        <div class="portfolio_img">
+          <img src="img/Слой%208.png" alt="site1">
+        </div>
+        <div class="portfolio_links">
+          <a href="#" class="portfolio_btn portfolio_link">Открыть работу</a>
+          <a href="#" class="portfolio_btn portfolio_link-git">GitHub <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="portfolio_item">
+        <h3>Project name</h3>
+        <p>description</p>
+        <div class="portfolio_img">
+          <img src="img/Слой%208.png" alt="site1">
+        </div>
+        <div class="portfolio_links">
+          <a href="#" class="portfolio_btn portfolio_link">Открыть работу</a>
+          <a href="#" class="portfolio_btn portfolio_link-git">GitHub <i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="wrapper">
+    <section id="contacts" class="contacts">
+      <h2 class="ru_content">Контакты</h2>
+      <h2 class="en_content hide">Contacts</h2>
+      <p class="ru_content">
+        Хотите узнать больше или просто пообщаться? <br>
+        Добро пожаловать в мои соцсети!</p>
+      <p class="en_content hide">
+        Want to know more or just chat? <br>
+        You are welcome!</p>
+      <a href="mailto:andreisham123@gmail.com" class="contacts_btn">Send E-mail</a>
+      <div class="social">
+        <a href="https://t.me/fromkhabar" target="_blank" class="social_link"><i class="fab fa-telegram-plane"></i></a>
+        <a href="https://www.instagram.com/fromkhabarwith_some/" target="_blank" class="social_link"><i class="fab fa-instagram"></i></a>
+        <a href="https://vk.com/fromkhabarwithsome" target="_blank" class="social_link"><i class="fab fa-vk"></i></a>
+      </div>
+      <p class="footer ru_content"> Буду рад новым предложениям и знакомствам</p>
+      <p class="footer en_content hide"> I will be glad to new offers and contacts</p>
+    </section>
+  </div>
+<!--scripts-->
+  <script src="scripts/script.js"></script>
+</body>
+</html>
