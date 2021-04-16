@@ -6,9 +6,9 @@ let prevBtn = slider.querySelector('.previous');
 let itemWidth = slider.querySelector('.item').clientWidth;
 const cards = slider.querySelectorAll('.card');
 
-const mediaDesktopQuery = window.matchMedia("(min-width: 991.99px)");
-const mediaTabletQuery = window.matchMedia("(min-width: 767.99px) and (max-width: 991.98px)");
-const mediaMobileQuery = window.matchMedia("(max-width: 767.98px");
+const mediaDesktopQuery = window.matchMedia('(min-width: 991.99px)');
+const mediaTabletQuery = window.matchMedia('(min-width: 767.99px) and (max-width: 991.98px)');
+const mediaMobileQuery = window.matchMedia('(max-width: 767.98px)');
 
 /**
  * Функция удаляет все слайды
@@ -108,7 +108,7 @@ function scrollToNextItem() {
 }
 // TODO описание функций
 function scrollToPrevItem() {
-    if(scroller.scrollLeft != 0)
+    if(scroller.scrollLeft !== 0)
         // Позиция прокрутки расположена не в начале последнего элемента
         scroller.scrollBy({left: -itemWidth, top: 0, behavior:'smooth'});
     else
