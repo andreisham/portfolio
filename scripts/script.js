@@ -85,13 +85,13 @@ function mobileChange(mediaQuery) {
     }
 }
 
-mediaDesktopQuery.addListener(desktopChange)
+mediaDesktopQuery.addEventListener('change', desktopChange)
 desktopChange(mediaDesktopQuery)
 
-mediaTabletQuery.addListener(tabletChange)
+mediaTabletQuery.addEventListener('change', tabletChange)
 tabletChange(mediaTabletQuery)
 
-mediaMobileQuery.addListener(mobileChange)
+mediaMobileQuery.addEventListener('change', mobileChange)
 mobileChange(mediaMobileQuery)
 
 // скроллер для слайдов
