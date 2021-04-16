@@ -376,6 +376,7 @@ h2 {
   html, body {
     font-size: 14px;
     line-height: 18px;
+    overflow-x: hidden;
   }
 
   .lang {

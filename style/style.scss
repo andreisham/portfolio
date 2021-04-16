@@ -367,7 +367,6 @@ h2 {
   }
 }
 
-
 @media (max-width: 767.98px) {
   .wrapper {
     padding: 0 calc(50% - 270px);
@@ -378,6 +377,7 @@ h2 {
   html, body {
     font-size: 14px;
     line-height: 18px;
+    overflow-x: hidden;
   }
   .lang {
     display: none;
